@@ -4,3 +4,8 @@
   display: flex;
 }
 
+header {
+  flex-direction: column;
+  width: 10%;
+  position: sticky;
+}
