@@ -1,15 +1,33 @@
 body {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   box-sizing: border-box;
   font-size: 62.5%;
+  background: dimgrey;
 }
 
 header {
   display: flex;
   flex-direction: column;
   width: 15%;
+  height: 100%;
   position: fixed;
+  border-right: 3px solid lightgrey;
 }
 
+li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  
+}
 
+.slider {
+  width: 85%;
+  height: 50%;
+}
+
+.info {
+  flex-flow: row wrap;
+  width: 85%;
+} 
