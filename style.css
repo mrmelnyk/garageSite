@@ -20,9 +20,12 @@ li {
   justify-items: space-around;
   align-items: flex-start;
   font-size: 1rem;
-  padding: 5px 0;
+  padding: 15px;
   text-decoration: none;
-  color: indianred;
+  color: indianred
+  background: linear-gradient(#666565, #4a4a4a);
+  border: lightgrey solid 1px;
+  border-radius: 5px;
 }
 
 li:hover {
@@ -35,6 +38,7 @@ li:hover {
   height: 70%;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .slider {
@@ -43,6 +47,8 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  
 }
 
 .info {
@@ -52,3 +58,4 @@ li:hover {
   align-items: center;
   justify-content: center;
 } 
+
