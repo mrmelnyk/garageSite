@@ -22,7 +22,7 @@ li {
   font-size: 1rem;
   padding: 15px;
   text-decoration: none;
-  color: indianred
+  color: indianred;
   background: linear-gradient(#666565, #4a4a4a);
   border: lightgrey solid 1px;
   border-radius: 5px;
