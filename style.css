@@ -41,7 +41,6 @@ li {
   padding: 10px;
   margin: 5px 0;
   text-decoration: none;
-  color: indianred;
   background: linear-gradient(#666565, #4a4a4a);
   border: lightgrey solid 1px;
   border-radius: 1px;
@@ -50,9 +49,14 @@ li {
 
 li:hover {
   font-size: 1.8rem;
-  color: darkred;
+  color: rgba(43, 1, 1, 0.63);
   width: 160%;
   height: 120%;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(90, 12, 12);
 }
 
 .image {
