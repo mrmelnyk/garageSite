@@ -25,6 +25,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
+  padding: 1rem 1rem 0 0;
 }
 
 li {
@@ -32,9 +33,9 @@ li {
   justify-items: space-around;
   align-items: center;
   justify-content: flex-start;
-  font-size: 1rem;
-  padding: 15px;
-  margin: 10px 0;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 5px 0;
   text-decoration: none;
   color: indianred;
   background: linear-gradient(#666565, #4a4a4a);
@@ -44,8 +45,10 @@ li {
 }
 
 li:hover {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: darkred;
+  width: 160%;
+  height: 120%;
 }
 
 .image {
@@ -70,7 +73,13 @@ li:hover {
   width: 85%;
   height: 50%;
   display: flex;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
 } 
+
+.info h2 {
+  font-size: 2rem;
+}
 
