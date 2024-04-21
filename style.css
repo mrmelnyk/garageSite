@@ -66,6 +66,7 @@ li a {
   justify-content: flex-end;
   width: 80%;
   height: 70%;
+  padding: 20px;
 }
 
 .slider {
