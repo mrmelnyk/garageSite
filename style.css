@@ -19,7 +19,10 @@ header {
 main {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
   margin-left: 20%;
+  width: 100%;
 }
 
 h1 {
@@ -92,6 +95,32 @@ li a {
 .info h2 {
   font-size: 1.9rem;
 }
+ 
+.parts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parts h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.socials {
+  padding-top: 50px;
+}
+
+.contact {
+  font-weight: 800;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
 .showroom {
   display: flex;
@@ -104,3 +133,4 @@ li a {
   padding: 5%;
   
 }
+
