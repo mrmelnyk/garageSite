@@ -140,3 +140,21 @@ li a {
   
 }
 
+/*Tables*/
+
+.table {
+  font-size: 1.25rem;
+  border: solid black 2px;
+  padding: 10px;
+
+}
+
+.table th {
+  padding: 5px 20px;
+  border: solid black 1px;
+}
+
+.title tr {
+  font-size: 1.5rem;
+  
+}
