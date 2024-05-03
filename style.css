@@ -111,6 +111,10 @@ li a {
   padding-top: 80px;
 }
 
+.parts a {
+  text-decoration: none;
+}
+
 .socials {
   padding-top: 50px;
 }
