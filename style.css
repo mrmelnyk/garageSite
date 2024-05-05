@@ -84,7 +84,6 @@ li a {
 
 .info {
   width: 85%;
-  height: 50%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -108,11 +107,11 @@ li a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: 80px;
 }
 
 .parts a {
   text-decoration: none;
+  color: rgb(90, 12, 12);
 }
 
 .socials {
@@ -150,7 +149,7 @@ li a {
   font-size: 1.25rem;
   border: solid black 2px;
   padding: 10px;
-
+  background-color: rgba(90, 87, 87, 0.836);
 }
 
 .table th {
@@ -166,3 +165,10 @@ li a {
   font-size: 1.5rem;
 }
 
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
