@@ -115,7 +115,20 @@ li a {
 }
 
 .socials {
-  padding-top: 50px;
+  padding-top: 100px;
+}
+
+.socials h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.socials img {
+  width: 2%;
+  height: 2%;
+  padding: 10px 20px;
 }
 
 .top {
