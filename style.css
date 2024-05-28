@@ -192,6 +192,9 @@ li a {
 /*Footer*/
 
 .foot {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 100%;
   height: 10%;
   border-top: solid lightgray 2px;
@@ -200,6 +203,9 @@ li a {
 }
 
 .static {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 10%;
   background-color: #161616;
