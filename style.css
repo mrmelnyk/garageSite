@@ -25,6 +25,7 @@ main {
   align-items: center;
   justify-content: center;
   margin-left: 20%;
+  margin-bottom: 10%;
   width: 100%;
 }
 
@@ -196,13 +197,15 @@ header li a {
 
 .foot {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
   height: 10%;
   border-top: solid lightgray 2px;
   background-color: #161616;
-
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .static {
