@@ -82,10 +82,23 @@ header li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   width: 85%;
   height: 50%;
-  
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  position: relative;
+}
+
+.slider.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1);
 }
 
 .info {
