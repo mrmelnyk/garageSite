@@ -81,9 +81,9 @@ header li a {
 .slider {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 85%;
-  height: 50%;
+  height: 60%;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
