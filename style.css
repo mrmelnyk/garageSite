@@ -84,7 +84,7 @@ header li a {
   justify-content: flex-start;
   width: 85%;
   height: 60%;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   user-select: none;
