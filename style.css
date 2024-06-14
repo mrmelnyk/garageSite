@@ -281,6 +281,7 @@ footer a {
   h1 {
     font-size: 1.5rem;
     color: #666565;
+    padding-left: 10px;
   }
 
   nav {
@@ -301,12 +302,32 @@ footer a {
   header ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 0 20px;
+  }
+
+  header li {
+    background: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  header li:hover {
+    font-size: 1.2rem;
+    width: auto;
+    height: auto;
+    transition: none;
+  }
+
+  header li a {
+    color: #666565;
   }
 
   main {
     width: 100%;
     margin-left: 0;
-    
+
   }
+
 }
