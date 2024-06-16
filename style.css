@@ -334,5 +334,11 @@ footer a {
 }
 
 @media screen and (max-width: 750px)  {
-  
+  h1 {
+    display: none;
+  }
+
+  menu {
+    overflow: hidden;
+  }
 }
