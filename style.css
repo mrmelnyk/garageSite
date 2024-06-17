@@ -342,6 +342,13 @@ footer a {
     display: none;
   }
 
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
   menu {
     overflow: hidden;
   }
