@@ -209,6 +209,10 @@ main {
   padding: 50px;
 }
 
+#performance {
+  padding-bottom: 11%;
+}
+
 /*Footer*/
 
 .foot {
