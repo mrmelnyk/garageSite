@@ -173,9 +173,17 @@ main {
 
 .showroom img {
   width: 33.33%;
-  height: 20%;
   padding: 5%;
-  
+  z-index: 2;
+}
+
+.showroom img:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
 }
 
 /*Tables*/
