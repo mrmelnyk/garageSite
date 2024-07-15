@@ -28,3 +28,12 @@ slider.addEventListener('mousedown', (e) => {
     const walk = (x - startX) * 3;
     slider.scrollLeft = scrollLeft - walk;
   });
+  
+  //Showroom images for the cars page
+  
+  const showroom = document.querySelector('.showroom img')
+  showroom.addEventListener('click', expand)
+  function expand(){
+    showroom.classList.add('active')
+  }
+  
