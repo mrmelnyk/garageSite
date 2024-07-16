@@ -177,7 +177,7 @@ main {
   position: relative;
 }
 
-.showroom img .active{
+.showroom img.active{
   display: flex;
   align-items: center;
   justify-content: center;
