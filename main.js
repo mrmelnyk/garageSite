@@ -32,7 +32,7 @@ slider.addEventListener('mousedown', (e) => {
   //Showroom images for the cars page
   
   const showroom = document.querySelector('.showroom img');
+  
   showroom.addEventListener('click', () => {
-    isDown = true;
-    showroom.classList.add('active');
-  })
+    showroom.classList.add('zoom');
+  });
