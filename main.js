@@ -32,7 +32,9 @@ slider.addEventListener('mousedown', (e) => {
   //Showroom images for the cars page
   
   const showroom = document.querySelector('.showroom img');
+  let zoomed = false;
   
   showroom.addEventListener('click', () => {
+    zoomed = true;
     showroom.classList.add('zoom');
   });
