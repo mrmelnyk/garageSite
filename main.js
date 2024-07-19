@@ -40,6 +40,6 @@ slider.addEventListener('mousedown', (e) => {
   });
   showroom.addEventListener('click', () => {
     zoomed = false;
-    showroom.classList.add('zoom');
+    showroom.classList.remove('zoom');
   });
   
