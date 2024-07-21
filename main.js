@@ -42,5 +42,5 @@ slider.addEventListener('mousedown', (e) => {
     zoomed = false;
     showroom.classList.remove('zoom');
   });
-  let arr = [];
+  
   
