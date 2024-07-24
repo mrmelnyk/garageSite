@@ -4,7 +4,7 @@ let startX;
 let scrollLeft;
 
 //Slider for the main landing page.
-slider.addEventListener('mousedown', (e) => {
+  slider.addEventListener('mousedown', (e) => {
     isDown = true;
     slider.classList.add('active');
     startX = e.pageX - slider.offsetLeft;
@@ -34,7 +34,8 @@ slider.addEventListener('mousedown', (e) => {
   const showroom = document.querySelector('.showroom img');
   let zoomed = false;
   
-  showroom.addEventListener('click', () => {
+  showroom.addEventListener('click', (a) => {
+    a.preventDefault();
     zoomed = true;
     showroom.classList.add('zoom');
   });
