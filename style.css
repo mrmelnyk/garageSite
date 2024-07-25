@@ -171,13 +171,13 @@ main {
   flex-flow: row wrap;
 }
 
-.showroom img {
+.showpic {
   width: 33.33%;
   margin: 5%;
   position: relative;
 }
 
-.showroom img .zoom {
+.showpic .zoom {
   display: flex;
   align-items: center;
   justify-content: center;
