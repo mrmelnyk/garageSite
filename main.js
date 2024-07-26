@@ -45,4 +45,4 @@ let scrollLeft;
   });
   
   
-  
+  let arr = [];
