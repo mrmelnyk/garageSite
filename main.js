@@ -4,13 +4,14 @@ let startX;
 let scrollLeft;
 
 //Slider for the main landing page.
-  slider.addEventListener('mousedown', (e) => {
+  slider.addEventListener('mousedown', mover);
+
+  function mover(e) {
     isDown = true;
     slider.classList.add('active');
     startX = e.pageX - slider.offsetLeft;
     scrollLeft = slider.scrollLeft;
-  });
-
+  }
   slider.addEventListener('mouseleave', () => {
     isDown = false;
     slider.classList.remove('active');
