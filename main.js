@@ -46,4 +46,4 @@ let scrollLeft;
   });
   
   
-  
+  let arr = [];
