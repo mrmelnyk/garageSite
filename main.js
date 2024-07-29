@@ -32,18 +32,16 @@ let scrollLeft;
   
   //Showroom images for the cars page
   
-  const showroom = document.querySelector('.showpic');
-  let zoomed = false;
+  const showroom = document.querySelectorAll(".showpic");
   
-  showroom.addEventListener('click', (a) => {
-    a.preventDefault();
-    zoomed = true;
-    showroom.classList.add('zoom');
-  });
-  showroom.addEventListener('click', () => {
-    zoomed = false;
-    showroom.classList.remove('zoom');
-  });
+    showroom.addEventListener('click', () => {
+      showroom.classList.add('zoom');
+    });
+
+    showroom.addEventListener('click', (a) => {
+      a.preventDefault();
+      showroom.classList.remove('zoom');
+      zoomed = false;
+    });
   
   
-  let arr = [];
