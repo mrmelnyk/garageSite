@@ -33,16 +33,18 @@ let scrollLeft;
   //Showroom images for the cars page
   
   const showroom = document.querySelectorAll(".showpic");
-  
-    showroom.addEventListener('click', () => {
+  let zoomed = false;
+
+    showroom.addEventListener('click', (a) => {
+      a.preventDefault();
+      zoomed = true;
       showroom.classList.add('zoom');
     });
 
     showroom.addEventListener('click', (a) => {
       a.preventDefault();
-      showroom.classList.remove('zoom');
       zoomed = false;
+      showroom.classList.remove('zoom');
     });
   
   //I have no idea why this isn't working and it is really pissing me off.
-  
