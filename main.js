@@ -47,4 +47,3 @@ let scrollLeft;
       showroom.classList.remove('zoom');
     });
   
-  //I have no idea why this isn't working and it is really pissing me off.
