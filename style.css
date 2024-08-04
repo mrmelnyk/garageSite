@@ -124,6 +124,10 @@ main {
   width: 100%;
 }
 
+.parts:first-child {
+  padding-top: 5%;
+}
+
 .parts h3 {
   display: flex;
   justify-content: center;
@@ -154,7 +158,15 @@ main {
 }
 
 .top {
-  padding-top: 50px;
+  padding-top: 5%;
+}
+
+.top p {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .contact {
