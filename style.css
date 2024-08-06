@@ -383,4 +383,8 @@ footer a {
   menu {
     overflow: hidden;
   }
+
+  body {
+    padding-top: 10%;
+  }
 }
