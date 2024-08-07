@@ -359,12 +359,8 @@ footer a {
 
   }
 
-  .slider {
-    margin-top: 10%;
-  }
-
-  .showroom img {
-    margin-top: 10%;
+  body {
+    padding-top: 10%;
   }
 }
 
@@ -386,5 +382,9 @@ footer a {
 
   body {
     padding-top: 10%;
+  }
+
+  .showpic {
+    width: 65%;
   }
 }
