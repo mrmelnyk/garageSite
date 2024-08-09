@@ -206,7 +206,7 @@ main {
   border: solid black 2px;
   padding: 10px;
   background-color: rgba(90, 87, 87, 0.836);
-  width: 45%;
+  width: 50%;
 }
 
 .table th {
@@ -390,4 +390,14 @@ footer a {
   .showpic {
     width: 65%;
   }
+
+  .table {
+    width: 100%;
+    font-size: 0.5rem;
+  }
+
+  .table tr {
+    font-size: 0.75rem;
+  }
+
 }
