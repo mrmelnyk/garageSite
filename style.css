@@ -123,9 +123,6 @@ main {
   justify-content: center;
   align-items: center;
   width: 50%;
-}
-
-.parts:first-child {
   padding-top: 5%;
 }
 
