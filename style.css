@@ -397,6 +397,9 @@ footer a {
     font-size: 0.75rem;
   }
 
+  .parts {
+    width: 100%;
+  }
 
 
 }
