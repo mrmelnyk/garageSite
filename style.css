@@ -401,5 +401,8 @@ footer a {
     width: 100%;
   }
 
+  footer ul {
+    font-size: 1.1rem;
+  }
 
 }
