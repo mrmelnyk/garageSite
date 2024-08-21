@@ -288,6 +288,11 @@ footer a {
   text-align: center;
 }
 
+.disclaimer {
+  margin-bottom: 5%;
+  font-size: 0.4rem;
+}
+
 @media screen and (max-width: 1800px){
 
   body {
