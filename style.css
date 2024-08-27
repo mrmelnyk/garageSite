@@ -182,6 +182,7 @@ main {
 .showpic {
   width: 33.33%;
   margin: 3%;
+  position: fixed;
 }
 
 .showpic:hover /*.zoom*/ {
@@ -191,6 +192,7 @@ main {
   transition-duration: 1s;
   position: relative;
   z-index: 1;
+
 }
 
 /*Tables*/
