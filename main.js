@@ -35,8 +35,7 @@ let scrollLeft;
   const showroom = document.querySelectorAll('.showpic');
   let zoomed = false;
 
-    showroom.addEventListener('click', (a) => {
-      a.preventDefault();
+    showroom.addEventListener('click', () => {
       zoomed = true;
       showroom.classList.add('zoom');
     });
