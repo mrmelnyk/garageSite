@@ -40,9 +40,9 @@ let scrollLeft;
       showroom.classList.add('zoom');
     });
 
-    showroom.addEventListener('click', (a) => {
-      a.preventDefault();
-      zoomed = false;
-      showroom.classList.remove('zoom');
-    });
+    //showroom.addEventListener('click', (a) => {
+    //  a.preventDefault();
+    //  zoomed = false;
+    //  showroom.classList.remove('zoom');
+    //});
   
