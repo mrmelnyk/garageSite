@@ -3,6 +3,10 @@ let isDown = false;
 let startX;
 let scrollLeft;
 
+
+const showroom = document.querySelector('.showpic');
+let zoomed = false;
+
 //Slider for the main landing page.
   slider.addEventListener('mousedown', mover);
 
@@ -32,12 +36,10 @@ let scrollLeft;
   
   //Showroom images for the cars page
   
-  let showroom = document.querySelectorAll('.showpic');
-  let zoomed = false;
-
     showroom.addEventListener('click', () => {
       zoomed = true;
       showroom.classList.add('zoom');
+      console.log('this is actually running!')
     });
 
     showroom.addEventListener('click', (a) => {
