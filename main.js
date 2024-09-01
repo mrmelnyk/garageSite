@@ -32,7 +32,7 @@ let scrollLeft;
   
   //Showroom images for the cars page
 
-  const showroom = document.querySelector('.showpic');
+  const showroom = document.querySelectorAll('.showpic');
   let zoomed = false;
   
     showroom.addEventListener('click', () => {
