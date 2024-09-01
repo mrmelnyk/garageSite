@@ -45,6 +45,7 @@ let scrollLeft;
       a.preventDefault();
       zoomed = false;
       showroom.classList.remove('zoom');
+      console.log('this one runs too!');
     });
 
   
