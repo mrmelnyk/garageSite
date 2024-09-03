@@ -4,22 +4,22 @@ let startX;
 let scrollLeft;
 
 //Slider for the main landing page.
-  slider.addEventListener('mousedown', mover);
-
-  function mover(e) {
+  slider.addEventListener('mousedown', (e) => {
     isDown = true;
-    slider.classList.add('active');
+    slider.classList.add('moving');
     startX = e.pageX - slider.offsetLeft;
     scrollLeft = slider.scrollLeft;
-  }
+  });
+
+   
   slider.addEventListener('mouseleave', () => {
     isDown = false;
-    slider.classList.remove('active');
+    slider.classList.remove('moving');
   });
 
   slider.addEventListener('mouseup', () => {
     isDown = false;
-    slider.classList.remove('active');
+    slider.classList.remove('moving');
   });
 
   slider.addEventListener('mousemove', (e) => {
