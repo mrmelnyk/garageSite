@@ -35,10 +35,11 @@ let scrollLeft;
   const showroom = document.querySelectorAll('.showpic');
   let zoomed = false;
   
-    showroom.addEventListener('click', () => {
+    showroom.addEventListener('click', (a) => {
+      a.preventDefault();
       zoomed = true;
       showroom.classList.add('zoom');
-      console.log('this is actually running!')
+      console.log('this is actually running!');
     });
 
     showroom.addEventListener('click', (a) => {
