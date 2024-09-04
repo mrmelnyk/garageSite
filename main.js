@@ -36,9 +36,9 @@ let scrollLeft;
   let zoomed = false;
   
     showroom.addEventListener('click', (a) => {
-      a.preventDefault();
       zoomed = true;
       showroom.classList.add('zoom');
+      
       console.log('this is actually running!');
     });
 
