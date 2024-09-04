@@ -49,5 +49,8 @@ let scrollLeft;
       console.log('this one runs too!');
     });
 
+    //why doesn't this work? Does it need something the point to when running the function?
+    
+
   
   
