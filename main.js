@@ -38,7 +38,7 @@ let scrollLeft;
     showroom.addEventListener('click', (a) => {
       zoomed = true;
       showroom.classList.add('zoom');
-
+      
       console.log('this is actually running!');
     });
 
@@ -49,9 +49,5 @@ let scrollLeft;
       showroom.classList.remove('zoom');
       console.log('this one runs too!');
     });
-
-    //why doesn't this work? Does it need something the point to when running the function?
     
 
-  
-  
