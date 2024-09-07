@@ -57,3 +57,5 @@ bigPic.addEventListener('click', (e) =>{
   backdrop.style.display = 'block';
   popup.src = src;
 });
+
+let somethingWork = document.getElementById(img);
