@@ -58,4 +58,3 @@ bigPic.addEventListener('click', (e) =>{
   popup.src = src;
 });
 
-let somethingWork = document.getElementById(img);
