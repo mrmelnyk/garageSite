@@ -10,7 +10,6 @@ let scrollLeft;
     startX = e.pageX - slider.offsetLeft;
     scrollLeft = slider.scrollLeft;
   });
-
    
   slider.addEventListener('mouseleave', () => {
     isDown = false;
@@ -36,7 +35,7 @@ const showroom = document.querySelector('.showpic');
 let zoomed = false;
 
   showroom.addEventListener('click', (e) => {
-    if(!zoomed) return;
+    //if(!zoomed) return;
     e.preventDefault();
     showroom.classList.remove('zoom');
     zoomed = false;
