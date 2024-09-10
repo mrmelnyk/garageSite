@@ -38,12 +38,12 @@ let scrollLeft;
   showroom.addEventListener('click', (e) => {
     if(!zoomed) return;
     e.preventDefault();
-    showroom.classList.remove('zoom');
+    e.classList.remove('zoom');
     zoomed = false;
   });
 
-  showroom.addEventListener('click', () => {
-    showroom.classList.add('zoom');
+  showroom.addEventListener('click', (e) => {
+    e.classList.add('zoom');
     zoomed = true;
   });
 
