@@ -30,20 +30,20 @@ let scrollLeft;
     slider.scrollLeft = scrollLeft - walk;
   });
   
-  //Showroom images for the cars page
+//Showroom images for the cars page
 
-  let showroom = document.querySelectorAll('.showpic');
-  let zoomed = false;
+const showroom = document.querySelector('.showpic');
+let zoomed = false;
 
   showroom.addEventListener('click', (e) => {
     if(!zoomed) return;
     e.preventDefault();
-    e.classList.remove('zoom');
+    showroom.classList.remove('zoom');
     zoomed = false;
   });
 
-  showroom.addEventListener('click', (e) => {
-    e.classList.add('zoom');
+  showroom.addEventListener('click', () => {
+    showroom.classList.add('zoom');
     zoomed = true;
   });
 
