@@ -31,7 +31,7 @@ let scrollLeft;
   });
   
   //Showroom images for the cars page
-/*
+
   let showroom = document.querySelectorAll('.showpic');
   let zoomed = false;
 
@@ -46,15 +46,15 @@ let scrollLeft;
     showroom.classList.add('zoom');
     zoomed = true;
   });
-*/
 
-let bigPic = document.querySelector('.showpic');
-let backdrop = document.querySelector('.backdrop');
-let popup = document.querySelector('.popupImg');
 
-bigPic.addEventListener('click', (e) =>{
-  let src = e.target.src;
-  backdrop.style.display = 'block';
-  popup.src = src;
-});
+//let bigPic = document.querySelector('.showpic');
+//let backdrop = document.querySelector('.backdrop');
+//let popup = document.querySelector('.popupImg');
+//
+//bigPic.addEventListener('click', (e) =>{
+//  let src = e.target.src;
+//  backdrop.style.display = 'block';
+//  popup.src = src;
+//});
 
