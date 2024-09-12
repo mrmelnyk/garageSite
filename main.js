@@ -31,20 +31,24 @@ let scrollLeft;
   
 //Showroom images for the cars page
 
-const showroom = document.querySelector('.showpic');
-let zoomed = false;
+const cars = document.querySelector('.showpic');
 
-  showroom.addEventListener('click', (e) => {
-    if(!zoomed) return;
-    e.preventDefault();
-    showroom.classList.remove('zoom');
-    zoomed = false;
-  });
-
-  showroom.addEventListener('click', () => {
-    showroom.classList.add('zoom');
-    zoomed = true;
-  });
+  cars.addEventListener('onclick', () => {
+    showpic.style.transform = 2;
+  })
+//let zoomed = false;
+//
+//  showroom.addEventListener('click', (e) => {
+//    if(!zoomed) return;
+//    e.preventDefault();
+//    showroom.classList.remove('zoom');
+//    zoomed = false;
+//  });
+//
+//  showroom.addEventListener('click', () => {
+//    showroom.classList.add('zoom');
+//    zoomed = true;
+//  });
 
 
 //let bigPic = document.querySelector('.showpic');
