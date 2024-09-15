@@ -8,9 +8,9 @@ let zoomed = false;
         zoomed = true;
     }); 
 
-//showroom.addEventListener('click', (e) => {
-//  if(!zoomed) return;
-//  e.preventDefault();
-//  showroom.classList.remove('zoom');
-//  zoomed = false;
-//});
+    showroom.addEventListener('click', (e) => {
+        if(!zoomed) return;
+        e.preventDefault();
+        showroom.classList.remove('zoom');
+        zoomed = false;
+    });
